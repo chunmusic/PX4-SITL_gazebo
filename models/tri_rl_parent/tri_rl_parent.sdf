@@ -142,15 +142,15 @@
       <magSubTopic>/mag</magSubTopic>
       <baroSubTopic>/baro</baroSubTopic>
       <mavlink_addr>INADDR_ANY</mavlink_addr>
-      <mavlink_udp_port>14071</mavlink_udp_port>
-      <mavlink_tcp_port>4571</mavlink_tcp_port>
+      <mavlink_udp_port>14066</mavlink_udp_port>
+      <mavlink_tcp_port>4566</mavlink_tcp_port>
       <serialEnabled>0</serialEnabled>
       <serialDevice>/dev/ttyACM0</serialDevice>
       <baudRate>921600</baudRate>
       <qgc_addr>INADDR_ANY</qgc_addr>
-      <qgc_udp_port>14561</qgc_udp_port>
+      <qgc_udp_port>14556</qgc_udp_port>
       <sdk_addr>INADDR_ANY</sdk_addr>
-      <sdk_udp_port>13661</sdk_udp_port>
+      <sdk_udp_port>13656</sdk_udp_port>
       <hil_mode>0</hil_mode>
       <hil_state_level>0</hil_state_level>
       <vehicle_is_tailsitter>0</vehicle_is_tailsitter>

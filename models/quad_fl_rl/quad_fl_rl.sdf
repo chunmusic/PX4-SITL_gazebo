@@ -422,7 +422,7 @@
 
 
 
-      
+
     <plugin name='gps_plugin' filename='libgazebo_gps_plugin.so'>
       <robotNamespace>quad_fl_rl</robotNamespace>
       <gpsNoise>1</gpsNoise>
@@ -447,15 +447,15 @@
       <magSubTopic>/mag</magSubTopic>
       <baroSubTopic>/baro</baroSubTopic>
       <mavlink_addr>INADDR_ANY</mavlink_addr>
-      <mavlink_udp_port>14064</mavlink_udp_port>
-      <mavlink_tcp_port>4564</mavlink_tcp_port>
+      <mavlink_udp_port>14073</mavlink_udp_port>
+      <mavlink_tcp_port>4573</mavlink_tcp_port>
       <serialEnabled>0</serialEnabled>
       <serialDevice>/dev/ttyACM0</serialDevice>
       <baudRate>921600</baudRate>
       <qgc_addr>INADDR_ANY</qgc_addr>
-      <qgc_udp_port>14554</qgc_udp_port>
+      <qgc_udp_port>14563</qgc_udp_port>
       <sdk_addr>INADDR_ANY</sdk_addr>
-      <sdk_udp_port>13654</sdk_udp_port>
+      <sdk_udp_port>13663</sdk_udp_port>
       <hil_mode>0</hil_mode>
       <hil_state_level>0</hil_state_level>
       <vehicle_is_tailsitter>0</vehicle_is_tailsitter>
@@ -575,6 +575,6 @@
       <accelerometerBiasCorrelationTime>300.0</accelerometerBiasCorrelationTime>
       <accelerometerTurnOnBiasSigma>0.196</accelerometerTurnOnBiasSigma>
     </plugin>
-    
+
   </model>
 </sdf>

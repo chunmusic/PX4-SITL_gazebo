@@ -84,7 +84,7 @@
         <use_parent_model_frame>1</use_parent_model_frame>
       </axis>
     </joint>
-    
+
     <link name='rotor_0'>
       <pose frame=''>0.178 -0.163 0.07 0 -0 0</pose>
       <inertial>
@@ -436,7 +436,7 @@
       <robotNamespace>quad_fr_fl</robotNamespace>
       <pubRate>10</pubRate>
       <baroTopic>/baro</baroTopic>
-    </plugin> 
+    </plugin>
     <plugin name='mavlink_interface' filename='libgazebo_mavlink_interface.so'>
       <robotNamespace>quad_fr_fl</robotNamespace>
       <imuSubTopic>/imu</imuSubTopic>
@@ -444,15 +444,15 @@
       <magSubTopic>/mag</magSubTopic>
       <baroSubTopic>/baro</baroSubTopic>
       <mavlink_addr>INADDR_ANY</mavlink_addr>
-      <mavlink_udp_port>14067</mavlink_udp_port>
-      <mavlink_tcp_port>4567</mavlink_tcp_port>
+      <mavlink_udp_port>14063</mavlink_udp_port>
+      <mavlink_tcp_port>4563</mavlink_tcp_port>
       <serialEnabled>0</serialEnabled>
       <serialDevice>/dev/ttyACM0</serialDevice>
       <baudRate>921600</baudRate>
       <qgc_addr>INADDR_ANY</qgc_addr>
-      <qgc_udp_port>14557</qgc_udp_port>
+      <qgc_udp_port>14553</qgc_udp_port>
       <sdk_addr>INADDR_ANY</sdk_addr>
-      <sdk_udp_port>13657</sdk_udp_port>
+      <sdk_udp_port>13653</sdk_udp_port>
       <hil_mode>0</hil_mode>
       <hil_state_level>0</hil_state_level>
       <vehicle_is_tailsitter>0</vehicle_is_tailsitter>
@@ -572,6 +572,6 @@
       <accelerometerBiasCorrelationTime>300.0</accelerometerBiasCorrelationTime>
       <accelerometerTurnOnBiasSigma>0.196</accelerometerTurnOnBiasSigma>
     </plugin>
-    
+
   </model>
 </sdf>
